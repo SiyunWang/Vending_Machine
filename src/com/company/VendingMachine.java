@@ -10,7 +10,7 @@ public class VendingMachine {
     private double totalMoney = 100;
     private double currentBalance = 0;
     private int[] pendingQuantities = new int[vendingItems.length];
-    Calculator ourCalculator = new Calculator();
+
     public double getTotalMoney() {
         return totalMoney;
     }
